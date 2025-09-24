@@ -1,7 +1,5 @@
 Reading From : https://lakefs.io/data-version-control/dvc-best-practices/
 
 The article says to treat data like code: pick a versioning tool, set a clear place for data, and save checkpoints (commits) that can be rolled back. Use branches for experiments, automate checks, clean up old versions with rules, and make versions at meaningful steps in the pipeline so teams don’t step on each other.
-
-Choose a tool that fits the workflow and data size, define what belongs in the data repo, and save snapshots while working. Branch for testing or experiments, then merge changes in one safe step; add hooks to auto-run quality checks. Set retention (e.g., TTL) to delete stale versions, and create versions at job milestones so collaboration stays clear.
-
-Make small, meaningful saves of data and keep experiments in separate branches so teams can compare, debug, and undo changes. Automate checks, expire old versions, and version around pipeline events—not just time—so teams can work in parallel without conflicts.
+We need to choose a tool that fits the workflow and data size, define what belongs in the data repo, and save snapshots while working. Branch for testing or experiments, then merge changes in one safe step; add hooks to auto-run quality checks. Set retention (e.g., TTL) to delete stale versions, and create versions at job milestones so collaboration stays clear.
+We should make small, meaningful saves of data and keep experiments in separate branches so teams can compare, debug, and undo changes. Automate checks, expire old versions, and version around pipeline events—not just time—so teams can work in parallel without conflicts.

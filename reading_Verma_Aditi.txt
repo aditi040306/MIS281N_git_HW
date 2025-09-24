@@ -1,3 +1,4 @@
+Reading From : https://lakefs.io/data-version-control/dvc-best-practices/
 
 The article says to treat data like code: pick a versioning tool, set a clear place for data, and save checkpoints (commits) that can be rolled back. Use branches for experiments, automate checks, clean up old versions with rules, and make versions at meaningful steps in the pipeline so teams don’t step on each other.
 
